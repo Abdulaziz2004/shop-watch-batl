@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,sGAAI;AAEZ,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AAQD,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,qBAAqB;EAClC,eAAe,EAAE,MAAM;CACxB;;AAED,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,OAAO;CACjB",
+    "sources": [
+        "main.scss",
+        "stylis/_section-1.scss",
+        "stylis/_section-2.scss",
+        "stylis/_section-3.scss",
+        "stylis/_section-4.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
