@@ -6,18 +6,6 @@
           box-sizing: border-box;
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.section-2 {
-  width: 100%;
-  height: 935px;
-
 header {
   padding: 0;
   width: 100%;
@@ -32,72 +20,12 @@ header .navbar {
 }
 
 header .navbar .navigation {
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.section-2 .section2-box {
-  margin: 0px 0px 30px 30px;
-  width: 261px;
-  height: 290px;
-  padding: 35px 25px;
-  -webkit-box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.02);
-          box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.02);
-}
-
-.section-2 .section2-box b {
-  margin: 15px 0px 10px;
-  display: block;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 150%;
-}
-
-.section-2 .section2-box p {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 160%;
-  opacity: 0.7;
-}
-
-.section-2 .section2-box .read-more {
-  margin-top: 10px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 160%;
-}
-
-.section-2 .right-container {
-  margin-left: 150px;
-}
-
-.section-2 .right-container b {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 140%;
-  color: #000000;
-}
-
-.section-2 .right-container p {
-  font-family: Poppins;
-
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -186,22 +114,10 @@ header .navbar .nav-grid .grid-flex:nth-child(1) h1 {
 }
 
 header .navbar .nav-grid .grid-flex:nth-child(1) p {
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 160%;
-
-  padding: 15px 0px 30px;
-}
-
-.section-2 .right-container button {
-  width: 137px;
-  height: 48px;
-  color: #FFFFFF;
-  background-color: #13AE92;
-  border: none;
-
   color: #ffffff82;
   margin-top: 30px;
 }
@@ -257,7 +173,91 @@ header .header-bottom-img-3 {
   position: absolute;
   bottom: 38px;
   right: 32px;
+}
 
+.section-2 {
+  padding: 0 150px;
+  margin-top: 130px;
+}
+
+.section-2 .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .container-fluid .container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+.section-2 .container-fluid .container-flex .section2-box {
+  padding: 35px 16px 35px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.02);
+          box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.02);
+}
+
+.section-2 .container-fluid .container-flex .section2-box h3 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 38px;
+}
+
+.section-2 .container-fluid .container-flex .section2-box p {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 160%;
+  opacity: 0.7;
+}
+
+.section-2 .container-fluid .container-flex .section2-box .read-more {
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.section-2 .container-fluid .right-container {
+  margin: auto;
+}
+
+.section-2 .container-fluid .right-container h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.section-2 .container-fluid .right-container p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  margin-top: 15px;
+  color: #0000007e;
+}
+
+.section-2 .container-fluid .right-container button {
+  width: 137px;
+  height: 48px;
+  color: #ffffff;
+  background-color: #13ae92;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 30px;
 }
 
 body {
@@ -265,7 +265,7 @@ body {
   scroll-behavior: smooth;
 }
 
-
 section {
   padding: 0 px;
 }
+/*# sourceMappingURL=main.css.map */
