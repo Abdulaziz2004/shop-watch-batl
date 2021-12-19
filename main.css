@@ -6,6 +6,15 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 0 px;
+}
+
 header {
   padding: 0;
   width: 100%;
@@ -503,8 +512,4 @@ footer .tegi p:hover {
   color: white;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-}
 /*# sourceMappingURL=main.css.map */
