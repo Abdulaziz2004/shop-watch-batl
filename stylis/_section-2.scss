@@ -1,1 +1,80 @@
 // Habiba
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-2 {
+    width: 100%;
+    height: 935px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .section2-box {
+        margin: 0px 0px 30px 30px;
+        width: 261px;
+        height: 290px;
+        padding: 35px 25px;
+        box-shadow: 4px 6px 34px 4px rgba(0, 0, 0, 0.02);
+
+        b {
+            margin: 15px 0px 10px;
+            display: block;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 150%;
+        }
+
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 160%;
+            opacity: 0.7;
+        }
+
+        .read-more{
+            margin-top: 10px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 160%;
+        }
+    }
+
+    .right-container {
+        margin-left: 150px;
+
+        b {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31px;
+            line-height: 140%;
+            color: #000000;
+        }
+
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 160%;
+            padding: 15px 0px 30px;
+        }
+
+        button {
+            width: 137px;
+            height: 48px;
+            color: #FFFFFF;
+            background-color: #13AE92;
+            border: none;
+        }
+    }
+}
